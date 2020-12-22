@@ -94,7 +94,6 @@ function buildCharts(sample) {
         text: otu_labels.slice(0, 10).reverse(),
         type: "bar",
         orientation: "h",
-        marker: { color: ['Red', 'OrangeRed', 'Orange', 'Yellow', 'LimeGreen', 'Green', 'MidnightBlue', 'CornFlowerBlue', 'MediumOrchid', 'indigo'] },
       }   
     ];
     // Create the layout for the bar chart. 
