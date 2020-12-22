@@ -94,6 +94,7 @@ function buildCharts(sample) {
         text: otu_labels.slice(0, 10).reverse(),
         type: "bar",
         orientation: "h",
+        marker: { color: ['#f0f921', '#f0f921', '#fb9f3a', '#fb9f3a', '#d8576b', '#d8576b', '#9c179e', '#9c179e', '#46039f', '#46039f',] },
       }   
     ];
     // Create the layout for the bar chart. 
@@ -136,7 +137,6 @@ function buildCharts(sample) {
       {
         domain: { x: [0, 1], y: [0, 1] },
         value: Wfreq,
-        title: {text: "Belly Button Washing Frequency <br> Scrubs per Week", font: {size: 18}},
         type: "indicator",
         mode: "gauge+number",
         gauge: {
