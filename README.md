@@ -59,6 +59,8 @@ After:
 
 ### Challenge encountered in the customization of the dashboard
 There was one challenge that could not be met when customizing the dashboard, and it was to change the color of the bar chart to make it match the other charts.
+
+P.S.:
 Bar chart color scheme was changed after some research:
 
 ![](https://github.com/KatiuscaQ/Belly-Button-Biodiversity/blob/main/Resources/bar_chart_changed.PNG)
